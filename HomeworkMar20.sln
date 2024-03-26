@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkMar20.Web", "HomeworkMar20.Web\HomeworkMar20.Web.csproj", "{F007C78C-CFF3-40C9-98DD-26087016AFEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkMar20.Data", "HomeworkMar20.Data\HomeworkMar20.Data.csproj", "{36019E09-BADB-4014-A5EE-9618050B2B50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F007C78C-CFF3-40C9-98DD-26087016AFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F007C78C-CFF3-40C9-98DD-26087016AFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F007C78C-CFF3-40C9-98DD-26087016AFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F007C78C-CFF3-40C9-98DD-26087016AFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36019E09-BADB-4014-A5EE-9618050B2B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36019E09-BADB-4014-A5EE-9618050B2B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36019E09-BADB-4014-A5EE-9618050B2B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36019E09-BADB-4014-A5EE-9618050B2B50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B20A3F22-848B-49A2-95E4-5237F6219790}
+	EndGlobalSection
+EndGlobal
