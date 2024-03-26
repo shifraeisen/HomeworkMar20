@@ -66,8 +66,12 @@ namespace HomeworkMar20.Web.Controllers
         [HttpPost]
         public int AddLike(int id)
         {
-            var repo = new ImageRepository(_connectionString);
             var ids = HttpContext.Session.Get<List<int>>("Liked IDs") ?? new List<int>();
+            if (ids.Contains(id))
+            {
+                return -1;
+            }
+            var repo = new ImageRepository(_connectionString);
             ids.Add(id);
             HttpContext.Session.Set("Liked IDs", ids);
             return repo.AddLike(id);

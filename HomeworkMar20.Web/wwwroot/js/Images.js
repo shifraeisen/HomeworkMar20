@@ -8,7 +8,9 @@ $(() => {
         const id = $(this).data('image-id');
         $.post('/home/addlike', { id }, function (likes) {
             $("#like-button").prop('disabled', true);
-            $("#likes-count").text(likes);
+            if (likes != -1) {
+                $("#likes-count").text(likes);
+            }
         });
     });
 
